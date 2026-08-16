@@ -53,3 +53,8 @@ video_check(task_id="...")   # 轮询超时后查询
 - token plan 每日限额 3 条视频，用尽后 API 报错（不自动 fallback 付费 key）
 - 视频生成需 1-3 分钟（排队 + 渲染），150s 内未完成返回 task_id
 - 完成后返回 `video_url`（1 小时有效），agent 发链接给用户
+
+## 配套 Skill
+
+`skill/SKILL.md` 是配套的 hermes skill（安装到 `~/.hermes/skills/<name>/SKILL.md`），
+教 agent 何时使用本插件工具及正确用法（含角色特征检索、触发词等）。
