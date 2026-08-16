@@ -1,0 +1,5 @@
+name: minimax-video
+description: "MiniMax 视频生成：video_generate 工具（video-01，文生视频/图生视频）"
+version: 0.1.0
+author: xudley
+kind: standalone
